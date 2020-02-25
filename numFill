@@ -1,3 +1,7 @@
-num = int(input("enter here: "))
-length = list(range(1,num+1))
-print(length)
+def main():
+  num = int(input("enter here: "))
+  length = list(range(1,num+1))
+  print(length) 
+
+if __name__ == "__main__":
+	main();
